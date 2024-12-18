@@ -1,0 +1,491 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main1{
+    height: 100%;
+    width: 100%;
+    background-image: url(img8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main1-top{
+    height: 10%;
+    width: 100%;
+    background-color: rgba(6, 6, 60, 0.16);
+    display: flex;
+}
+.main1-top a{
+position: relative;
+left: 45%;
+top: 20%;
+margin: 25px;
+text-transform: uppercase;
+color: white;
+font-size: 15px;
+font-weight: 900;
+}
+.main1-top p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 30px;
+}
+.main1-bottom{
+    height: 400px;
+    width: 500px;
+   /* background-color: red; */
+    margin-left: 100px;
+    margin-top: 190px;
+}
+.main1-bottom h1{
+    color: white;
+    font-size: 60px;
+   font-weight: 900;
+   letter-spacing: 5px;
+}
+.main1-bottom p{
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 900;
+    opacity: 0.9;
+}
+.main1-bottom button{
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 9px 20px 9px 20px;
+   background-color: rgba(0, 47, 255, 0.47);
+   margin-top: 20px;
+   border: none;
+   border-radius: 10px;
+   box-shadow: 16px 32px 64px black;
+}
+.main1-bottom button:hover{
+    background-color: brown;
+    color: black;
+}
+/* ................. 2nd page ............... */
+.main2{
+    height: 100%;
+    width: 100%;
+}
+.main2-top{
+    height: 20%;
+    width: 100%;
+    background-color: rgba(135, 207, 235, 0.226);
+}
+.main2-top h1{
+    color: rgb(33, 162, 213);
+    font-size: 42px;
+    font-weight: 900;
+  text-align: center;
+ position: relative;
+ top: 20%;
+}
+.main2-top p{
+    color: rgba(33, 162, 213, 0.742);
+    font-size: 20px;
+    font-weight: 900;
+  text-align: center;
+ position: relative;
+ top: 25%;
+ letter-spacing: 2px;
+}
+.main2-bottom{
+    height: 80%;
+    width: 100%;
+    background-color: rgba(69, 146, 177, 0.126);
+    display: flex;
+    justify-content: space-evenly;
+   /* align-items: center; */
+}
+.main2-img1{
+    height: 400px;
+    width: 350px;
+    /* background-color: red; */
+    background-image: url(box2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+    box-shadow: 8px 16px 32px black;
+}
+.main2-img1:hover{
+    box-shadow: 16px 32px 64px black;
+}
+.main2-img2{
+    height: 400px;
+    width: 350px;
+    /* background-color: red; */
+    background-image: url(box6.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+    box-shadow: 8px 16px 32px black;
+}
+.main2-img2:hover{
+    box-shadow: 16px 32px 64px black;
+}
+.main2-img3{
+    height: 400px;
+    width: 350px;
+    /* background-color: red; */
+    background-image: url(box8.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+    box-shadow: 8px 16px 32px black;
+}
+.main2-img3:hover{
+    box-shadow: 16px 32px 64px black;
+}
+.main2-img4{
+    height: 400px;
+    width: 350px;
+    /* background-color: red; */
+    background-image: url(box5.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+    box-shadow: 8px 16px 32px black;
+}
+.main2-img4:hover{
+    box-shadow: 16px 32px 64px black;
+}
+.main2-img1-text1{
+    height: 25%;
+    width: 100%;
+    background-color: whitesmoke;
+  position: relative;
+  top: 105%;
+  box-shadow: 4px 8px 16px black;
+  border-radius: 15px;
+  border-color: 5px solid black;
+  transition: 1s;
+}
+.main2-img1-text1 i{
+    color: rgb(248, 184, 7);
+    font-size: 40px;
+    font-weight: 900;
+}
+.main2-img1-text1 p{
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main2-img1-text1:hover{
+    background-color: rgb(2, 2, 46);
+    color: white;
+}
+/* .................. page3 .................... */
+.main3{
+    height: 100%;
+    width: 100%;
+}
+.main3-top{
+    height: 60%;
+    width: 100%;
+    background-color:  rgba(69, 146, 177, 0.126);
+    display: flex;
+    justify-content: space-evenly;
+}
+.main3-top-img1{
+    height: 500px;
+    width: 350px;
+    /* background-color: red; */
+    background-image: url(box3.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+    box-shadow: 8px 16px 32px black;
+}
+.main3-top-img1:hover{
+    box-shadow: 16px 32px 64px black;
+}
+.main3-top-img2{
+    height: 500px;
+    width: 350px;
+    /* background-color: red; */
+    background-image: url(box7.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+    box-shadow: 8px 16px 32px black;
+}
+.main3-top-img2:hover{
+    box-shadow: 16px 32px 64px black;
+}
+.main3-top-img3{
+    height: 500px;
+    width: 350px;
+    /* background-color: red; */
+    background-image: url(box4.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+    box-shadow: 8px 16px 32px black;
+}
+.main3-top-img3:hover{
+    box-shadow: 16px 32px 64px black;
+}
+.main3-top-img4{
+    height: 500px;
+    width: 350px;
+    /* background-color: red; */
+    background-image: url(img7.jpg);
+    background-size: cover;
+    background-position: right;
+    margin-top: 2%;
+    box-shadow: 8px 16px 32px black;
+}
+.main3-top-img4:hover{
+    box-shadow: 16px 32px 64px black;
+}
+.main3-top-text{
+    height: 25%;
+    width: 100%;
+    background-color: whitesmoke;
+  position: relative;
+  top: 105%;
+  box-shadow: 4px 8px 16px black;
+  border-radius: 15px;
+  border-color: 5px solid black;
+  transition: 1s;
+}
+.main3-top-text i{
+    color: rgb(248, 184, 7);
+    font-size: 40px;
+    font-weight: 900;
+}
+.main3-top-text p{
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.main3-top-text:hover{
+    background-color: rgb(2, 2, 46);
+    color: white;
+}
+/* .................. page4 ................ */
+.main4{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(135, 207, 235, 0.642);
+}
+.main4-top{
+    height: 20%;
+    width: 100%;
+    background-color: rgba(135, 207, 235, 0.642);
+    box-shadow: 8px 16px 32px black;
+}
+.main4-top h1{
+    color: rgb(7, 184, 254);
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  top: 15px;
+  opacity: 0.7;
+}
+.main4-top h1:hover{
+    color: orangered;
+}
+.main4-img{
+    height: 70%;
+    width: 100%;
+   position: relative;
+   top: 5%;
+    background-image: url(g1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    box-shadow: 8px 16px 32px black;
+}
+.main4-text{
+    height: 50%;
+    width: 80%;
+    /* background-color: red; */
+    position: relative;
+    top: 150px;
+    left: 30px;
+}
+.main4-text h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.main4-text p{
+    color: white;
+    opacity: 0.9;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    position: relative;
+    top: 10px;
+}
+.main4-text button{
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 9px 20px 9px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    position: relative;
+    top: 40px;
+}
+.main4-text button:hover{
+    background-color: rgb(5, 184, 255);
+}
+/* ........... page5 ............... */
+.main5{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+.main5-top{
+    height: 20%;
+    width: 100%;
+    background-color: rgba(135, 207, 235, 0.466);
+    text-align: center;
+    box-shadow: 8px 16px 32px black;
+}
+.main5-top h1{
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: 30px;
+    letter-spacing: 1px;
+}
+.main5-top p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0.8;
+    position: relative;
+    top: 35px;
+}
+.main5-bottom{
+    height: 80%;
+    width: 100%;
+    background-color: rgba(135, 207, 235, 0.445);
+    display: flex;
+}
+.main5-bottom-left{
+    height: 90%;
+    width: 35%;
+    /* background-color: red; */
+    margin: 0 auto;
+ position: relative;
+ top: 30px;
+ background-image: url(box1.jpg);
+ background-size: cover;
+ background-position: center;
+ box-shadow: 8px 16px 32px black;
+ transition: 2s;
+}
+.main5-bottom-left:hover{
+    border-radius: 50%;
+}
+.main5-bottom-right{
+    height: 100%;
+    width: 60%;
+    /* background-color: rgb(212, 14, 206); */
+}
+.main5-bottom-right-top{
+   height: 50%;
+    width: 100%;
+    /* background-color: rgb(52, 5, 240); */
+    justify-content: space-evenly;
+    display: flex;
+}
+.text1{
+    margin-top: 10px;
+    height: 90%;
+    width: 40%;
+    background-color: rgb(140, 190, 190);
+}
+.text1 h1{
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+.text1 p{
+    opacity: 0.5;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    top: 23%;
+    left: 15%;
+}
+.img1{
+    margin-top: 10px;
+    height: 90%;
+    width: 40%;
+    background-color: rgb(7, 223, 223);
+    background-image: url(img3.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.main5-bottom-right-bottom{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(7, 222, 107); */
+    display: flex;
+    justify-content: space-evenly;
+}
+.text2{
+    height: 90%;
+    width: 40%;
+    background-color: rgb(140, 190, 190);
+}
+.img2{
+    height: 90%;
+    width: 40%;
+    background-color: rgb(7, 223, 223);
+    background-image: url(img4.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.text2 h1{
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: 25%;
+    left: 5%;
+}
+.text2 p{
+    opacity: 0.5;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+    top: 23%;
+    left: 15%;
+}
+/* ........... last page .......... */
+.main6{
+    height: 100%;
+    width: 100%;
+    background-image: url(shreya.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main6 h1{
+    font-size: 110px;
+    color: rgb(128, 1, 255);
+    text-shadow: 4px 8px 16px black;
+   text-transform: capitalize;
+   position: relative;
+   left: 20%;
+   top:10%;
+}
